@@ -7,7 +7,7 @@ Some scripts to debloat windows installations, by Chris Titus
 powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://git.io/JJ8R4')"
 ```
 
-### Regular (No OneDrive, Indexing, and Defender)
+### Minimal (Only Targets Bloatware/Telemetry)
 
 ```bash
 powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://git.io/JJ5qc')"
